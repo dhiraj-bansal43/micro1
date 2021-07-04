@@ -1,5 +1,5 @@
 pipeline{
-    agent {agent 'linux'}
+    agents {agent 'linux'}
     stages{
         stage('Hello'){
             steps{
