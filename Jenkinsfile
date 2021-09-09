@@ -10,7 +10,7 @@ pipeline{
                 echo 'hello from jenkinsfile'
             }
         }
-        stage('cat README'){
+        stage('cat README1'){
             when {
                 branch "fix-*"
             }
